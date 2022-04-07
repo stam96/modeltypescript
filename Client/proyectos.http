@@ -1,0 +1,15 @@
+GET http://localhost:5000/proyecto
+
+###
+POST  http://localhost:5000/proyecto
+Content-Type: application/json
+
+{
+    "nombre":"Mi proyecto beta",
+    "presupuesto":"2000",
+    "fechaInicio":"01/01/2022",
+    "fechaFin":"01/02/2022",
+    "estado":"ACTIVO",
+    "fase":"INICIADO",
+    "lider":"624c6b66e8c61d9b3041b431"
+}

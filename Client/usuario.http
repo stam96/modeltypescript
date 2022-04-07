@@ -1,0 +1,14 @@
+GET http://localhost:5000/usuario
+
+###
+POST http://localhost:5000/usuario
+Content-Type: application/json
+
+{
+    "correo":"user2@gmail.com",
+    "cedula":"235312561",
+    "nombre":"Usuario1",
+    "apellido":"UsuarioBeta1",
+    "rol":"LIDER",
+    "estado":"PENDIENTE"
+}

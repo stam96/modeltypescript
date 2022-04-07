@@ -1,0 +1,9 @@
+POST  http://localhost:5000/avance
+Content-Type: application/json
+
+{
+    "descripcion":"",
+    "fecha":"",
+    "proyecto":"",
+    "creadoPor":""
+}

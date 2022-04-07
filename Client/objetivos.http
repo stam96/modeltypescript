@@ -1,0 +1,8 @@
+POST http://localhost:5000/objetivos
+Content-Type: application/json
+
+{
+    "descripcion":"mi primer objetivo general",
+    "tipo":"GENERAL",
+    "proyectos":"624c6c17e8c61d9b3041b433"
+}
